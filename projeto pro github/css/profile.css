@@ -1,0 +1,29 @@
+.profile {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 2px solid #a31aff;
+    box-shadow: 0 0 10px 1px #a31aff;
+}
+
+.profile .name {
+    font-size: 40px;
+}
+
+.profile .nick {
+    font-size: 25px;
+    color: #f5e6ff;
+}
+
+.profile .office {
+    font-size: 15px;
+    color: #e0b3ff;
+}

@@ -1,0 +1,40 @@
+.about {
+    display: none
+}
+
+.about.select {
+    min-height: 260px;
+    display: block;
+}
+
+.about .subtitle {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.about .description {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+
+}
+
+.about .description p {
+    max-width: 50ch;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.about .infoaboutme {
+    background-color: #262626;
+    border-radius: 0 4px 4px;
+
+
+}
+
+.about .description span {
+    color: #cc00cc;
+
+}

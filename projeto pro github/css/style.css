@@ -1,0 +1,52 @@
+@import url('./card.css');
+@import url('./profile.css');
+@import url('./menu.css');
+@import url('./about.css');
+@import url('./social_network.css');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.background {
+    background-image: url('../imagens/gDq-UPah6UxL6gdDTBEKM4I-a8cXayZBDF78Nifyrs.gif');
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    top: 0;
+    filter: blur(3px) contrast(1.1);
+    background-color: #6b0abb33;
+    background-blend-mode: overlay;
+    box-shadow: 0 0 10px 2px #a31aff;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-transform: capitalize;
+    min-height: 100vh;
+}
+
+.info {
+    padding-top: 5px;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(76, 36, 121);
+    outline: 1px solid rgb(92, 40, 177);
+    border-radius: 10px;
+}

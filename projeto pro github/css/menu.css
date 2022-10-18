@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+}
+
+.menu .window {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 4px 4px 0 0;
+}
+
+.menu img {
+    width: 30px;
+}
+
+.menu .window.select {
+    background-color: #262626;
+}
+
+.menu .window:hover {
+    background-color: #414141;
+}
